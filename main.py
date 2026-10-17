@@ -7,7 +7,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 import sqlite3
 
 # BotFather'dan olgan tokeningizni qo'shtirnoq ichiga yozing
-TOKEN = 8722274230:AAFk6Pf0zWYSKKgFRrkaRWGtvzMN4sy1Sbo
+TOKEN = "8722274230:AAFk6Pf0zWYSKKgFRrkaRWGtvzMN4sy1Sbo"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
